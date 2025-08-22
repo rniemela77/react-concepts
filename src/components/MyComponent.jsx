@@ -1,7 +1,8 @@
 function MyComponent() {
   return (
     <div>
-      <p>This is a custom component</p>
+      <b>Hello!</b>
+      <p>This is a custom component!</p>
     </div>
   );
 }
