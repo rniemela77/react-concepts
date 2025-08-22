@@ -4,6 +4,7 @@ import "prismjs/components/prism-jsx";
 import "prismjs/themes/prism-tomorrow.css";
 import CustomComponents from "./components/concepts/custom-components/CustomComponents";
 import CustomComponentsProps from "./components/concepts/custom-components-props/CustomComponentsProps";
+import StylingComponents from "./components/concepts/styling-components/StylingComponents";
 
 function App() {
   useEffect(() => {
@@ -21,6 +22,10 @@ function App() {
 
       <section>
         <CustomComponentsProps />
+      </section>
+
+      <section>
+        <StylingComponents />
       </section>
 
       {/* <CssModulesComponent /> */}
