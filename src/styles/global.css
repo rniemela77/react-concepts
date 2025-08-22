@@ -1,32 +1,73 @@
 body {
-    background-color: #222;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    padding: 2rem 4rem;
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  padding: clamp(1rem, 2vw, 2rem) clamp(1rem, 2vw, 4rem);
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+h2,
+h3,
+h4 {
+  color: #ffdd7a;
+}
+
+h2 {
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  background: #ffdd7a;
+  color: #111;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+section {
+  margin-bottom: 4rem;
 }
 
 pre {
-    padding: 10px;
-    border-radius: 8px;
-    display: block;
-    width: fit-content;
+  border-radius: 8px;
+  display: block;
+  background: linear-gradient(
+    122deg,
+    #00000067,
+    #0000002b
+  ) !important; /* important to override prismjs */
+  min-width: max-content; /* prevent horizontal scroll on code blocks to force flex wrap */
+  font-size: clamp(0.9rem, 2vw, 1rem) !important;
 }
 
 .d-flex {
-    display: flex;
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-1 {
+  flex: 1;
 }
 
 .gap {
-    gap: 1rem;
+  gap: 1rem;
 }
 
 .border {
-    border: 1px solid #838383;
-    padding: 1rem;
-    border-radius: 8px;
+  border: 1px solid #838383;
+  padding: 1rem;
+  border-radius: 8px;
 }
