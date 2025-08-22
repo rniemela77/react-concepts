@@ -1,10 +1,10 @@
 import StepCounter from "./StepCounter";
 import StepCounterCode from "./StepCounter.jsx?raw";
 
-const StatefulComponents = () => {
+const StatefulComponents = ({ id }) => {
   return (
     <div>
-      <h2>State</h2>
+      <h2 id={id}>State</h2>
 
       <p>
         State is a way to store data that can change, and can cause components
@@ -49,6 +49,7 @@ const StatefulComponents = () => {
           </pre>
         </div>
       </div>
+
       <h3>Page Output:</h3>
       <div className="page-output">
         <StepCounter />

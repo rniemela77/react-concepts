@@ -12,10 +12,10 @@ function App() {
   );
 }`;
 
-const CustomComponentsProps = () => {
+const CustomComponentsProps = ({ id }) => {
   return (
     <div>
-      <h2>Using Props</h2>
+      <h2 id={id}>Using Props</h2>
       <h3>Code Example:</h3>
       <div className="d-flex gap flex-wrap">
         <div className="flex-1">

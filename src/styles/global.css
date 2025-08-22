@@ -10,6 +10,23 @@ body {
   padding: clamp(1rem, 2vw, 2rem) clamp(1rem, 2vw, 4rem);
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ffdd7a #0000003e;
+}
+
+a {
+  color: #ffdd7a;
+  text-decoration: none;
+  font-weight: 700;
+  margin-right: 1rem;
+  text-decoration: underline;
+}
+hr {
+  margin: 2rem 0;
+  border: 1px solid #838383;
+}
+
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -46,7 +63,6 @@ pre {
     #00000067,
     #0000002b
   ) !important; /* important to override prismjs */
-  min-width: max-content; /* prevent horizontal scroll on code blocks to force flex wrap */
   font-size: clamp(0.9rem, 2vw, 1rem) !important;
 }
 
@@ -60,6 +76,7 @@ pre {
 
 .flex-1 {
   flex: 1;
+  max-width: 100%;
 }
 
 .gap {

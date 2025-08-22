@@ -4,10 +4,10 @@ import MyCssModuleCode from "./css-module/MyComponent.module.css?raw";
 import MyComponent2 from "./css-in-js/MyComponent";
 import MyComponent2Code from "./css-in-js/MyComponent.jsx?raw";
 
-const StylingComponents = () => {
+const StylingComponents = ({ id }) => {
   return (
     <div>
-      <h2>Styling Components</h2>
+      <h2 id={id}>Styling Components</h2>
       <p>A couple of ways to style components in React:</p>
 
       <h3>CSS Modules</h3>

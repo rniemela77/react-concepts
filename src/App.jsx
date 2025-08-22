@@ -18,24 +18,32 @@ function App() {
     <div>
       <h1>React Concepts</h1>
 
+      <a href="#custom-components">Custom Components</a>
+      <a href="#custom-components-props">Custom Components Props</a>
+      <a href="#styling-components">Styling Components</a>
+      <a href="#stateful-components">Stateful Components</a>
+      <a href="#other-state">State Type Examples</a>
+
+      <hr />
+
       <section>
-        <CustomComponents />
+        <CustomComponents id="custom-components" />
       </section>
 
       <section>
-        <CustomComponentsProps />
+        <CustomComponentsProps id="custom-components-props" />
       </section>
 
       <section>
-        <StylingComponents />
+        <StylingComponents id="styling-components" />
       </section>
 
       <section>
-        <StatefulComponents />
+        <StatefulComponents id="stateful-components" />
       </section>
 
       <section>
-        <OtherState />
+        <OtherState id="other-state" />
       </section>
     </div>
   );

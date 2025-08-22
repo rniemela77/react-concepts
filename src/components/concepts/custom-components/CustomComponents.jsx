@@ -12,10 +12,10 @@ function App() {
   );
 }`;
 
-const CustomComponents = () => {
+const CustomComponents = ({ id }) => {
   return (
     <div>
-      <h2>Creating a React Component</h2>
+      <h2 id={id}>Creating a React Component</h2>
       <h3>Code Example:</h3>
       <div className="d-flex gap flex-wrap">
         <div className="flex-1">

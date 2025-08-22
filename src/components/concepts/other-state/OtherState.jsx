@@ -1,10 +1,10 @@
 import MyComponent from "./MyComponent.jsx";
 import MyComponentCode from "./MyComponent.jsx?raw";
 
-const OtherState = () => {
+const OtherState = ({ id }) => {
   return (
     <div>
-      <h2>State examples</h2>
+      <h2 id={id}>State examples</h2>
       <p>More examples of state usage with different data types:</p>
 
       <div className="d-flex gap flex-wrap">
