@@ -1,8 +1,7 @@
-import MyComponentWithProp from "./MyComponentWithProp";
-import MyComponentWithPropCode from "./MyComponentWithPropCode";
+import MyComponent from "./MyComponent";
+import MyComponentCode from "./MyComponent.jsx?raw";
 
-const jsxExample = `// App.jsx
-import MyComponent from './MyComponent';
+const jsxExample = `import MyComponent from './MyComponent';
 
 function App() {
   return (
@@ -19,18 +18,25 @@ const CustomComponentsProps = () => {
       <h2>Using Props</h2>
       <h3>Code Example:</h3>
       <div className="d-flex gap flex-wrap">
-        <pre className="flex-1">
-          <code className="language-jsx">{jsxExample}</code>
-        </pre>
         <div className="flex-1">
-          <MyComponentWithPropCode />
+          <p>App.jsx</p>
+          <pre>
+            <code className="language-jsx">{jsxExample}</code>
+          </pre>
+        </div>
+
+        <div className="flex-1">
+          <p>MyComponentWithProp.jsx</p>
+          <pre>
+            <code className="language-jsx">{MyComponentCode}</code>
+          </pre>
         </div>
       </div>
 
       <h3>Page Output:</h3>
       <div className="page-output">
-        <MyComponentWithProp name="John" />
-        <MyComponentWithProp name="Alice" />
+        <MyComponent name="John" />
+        <MyComponent name="Alice" />
       </div>
     </div>
   );

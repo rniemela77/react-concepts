@@ -1,5 +1,5 @@
 import StepCounter from "./StepCounter";
-import StepCounterCode from "./StepCounterCode";
+import StepCounterCode from "./StepCounter.jsx?raw";
 
 const StatefulComponents = () => {
   return (
@@ -43,7 +43,10 @@ const StatefulComponents = () => {
       <h3>All together:</h3>
       <div className="d-flex gap flex-wrap">
         <div className="flex-1">
-          <StepCounterCode />
+          <p>StepCounter.jsx</p>
+          <pre>
+            <code className="language-jsx">{StepCounterCode}</code>
+          </pre>
         </div>
       </div>
       <h3>Page Output:</h3>

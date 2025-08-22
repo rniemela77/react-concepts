@@ -5,7 +5,7 @@ const StyledParagraph = styled.p`
   font-size: 2rem;
 `;
 
-const CssInJsExample = () => {
+const MyComponent = () => {
   return (
     <div>
       <StyledParagraph>Big Pink Text!</StyledParagraph>
@@ -13,4 +13,4 @@ const CssInJsExample = () => {
   );
 };
 
-export default CssInJsExample;
+export default MyComponent;

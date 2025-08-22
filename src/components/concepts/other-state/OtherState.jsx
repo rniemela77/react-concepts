@@ -1,21 +1,22 @@
-import StringState from "./StringState.jsx";
-import StringStateCode from "./StringState.jsx?raw";
+import MyComponent from "./MyComponent.jsx";
+import MyComponentCode from "./MyComponent.jsx?raw";
 
 const OtherState = () => {
   return (
     <div>
       <h2>State examples</h2>
-      <p>More examples of state usage:</p>
+      <p>More examples of state usage with different data types:</p>
 
       <div className="d-flex gap flex-wrap">
         <div className="flex-1">
+          <p>MyComponent.jsx</p>
           <pre>
-            <code className="language-jsx">{StringStateCode}</code>
+            <code className="language-jsx">{MyComponentCode}</code>
           </pre>
         </div>
-        
+
         <div className="flex-1 page-output">
-          <StringState />
+          <MyComponent />
         </div>
       </div>
     </div>
