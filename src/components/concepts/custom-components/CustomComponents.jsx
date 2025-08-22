@@ -29,7 +29,7 @@ const CustomComponents = () => {
       </div>
 
       <h3>Page Output:</h3>
-      <div className="border">
+      <div className="page-output">
         <MyComponent />
         <MyComponent />
       </div>

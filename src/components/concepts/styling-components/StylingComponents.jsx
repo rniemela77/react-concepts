@@ -24,7 +24,7 @@ const StylingComponents = () => {
         </div>
       </div>
       <h4>Page Output:</h4>
-      <div className="border">
+      <div className="page-output">
         <MyComponent />
       </div>
       <h3>CSS-in-JS</h3>
@@ -40,7 +40,7 @@ const StylingComponents = () => {
         </div>
       </div>
       <h4>Page Output:</h4>
-      <div className="border">
+      <div className="page-output">
         <CssInJsExample />
       </div>
     </div>

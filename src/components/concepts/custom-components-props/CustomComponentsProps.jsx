@@ -28,7 +28,7 @@ const CustomComponentsProps = () => {
       </div>
 
       <h3>Page Output:</h3>
-      <div className="border">
+      <div className="page-output">
         <MyComponentWithProp name="John" />
         <MyComponentWithProp name="Alice" />
       </div>
