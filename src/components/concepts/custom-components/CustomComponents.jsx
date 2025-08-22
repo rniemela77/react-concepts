@@ -18,7 +18,7 @@ const CustomComponents = () => {
     <div>
       <h2>Creating a React Component</h2>
       <h3>Code Example:</h3>
-      <div class="d-flex gap flex-wrap">
+      <div className="d-flex gap flex-wrap">
         <pre className="flex-1">
           <code className="language-jsx">{jsxExample}</code>
         </pre>

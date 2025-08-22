@@ -6,6 +6,7 @@ import CustomComponents from "./components/concepts/custom-components/CustomComp
 import CustomComponentsProps from "./components/concepts/custom-components-props/CustomComponentsProps";
 import StylingComponents from "./components/concepts/styling-components/StylingComponents";
 import StatefulComponents from "./components/concepts/stateful-components/StatefulComponents";
+import OtherState from "./components/concepts/other-state/OtherState";
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,10 @@ function App() {
 
       <section>
         <StatefulComponents />
+      </section>
+
+      <section>
+        <OtherState />
       </section>
     </div>
   );
