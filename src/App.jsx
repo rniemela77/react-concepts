@@ -7,6 +7,7 @@ import CustomComponentsProps from "./components/concepts/custom-components-props
 import StylingComponents from "./components/concepts/styling-components/StylingComponents";
 import StatefulComponents from "./components/concepts/stateful-components/StatefulComponents";
 import OtherState from "./components/concepts/other-state/OtherState";
+import LearnHooks from "./components/concepts/learn-hooks/LearnHooks";
 
 function App() {
   useEffect(() => {
@@ -44,6 +45,10 @@ function App() {
 
       <section>
         <OtherState id="other-state" />
+      </section>
+
+      <section>
+        <LearnHooks id="learn-hooks" />
       </section>
     </div>
   );
